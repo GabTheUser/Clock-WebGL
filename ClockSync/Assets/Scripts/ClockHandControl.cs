@@ -12,6 +12,7 @@ public class ClockHandControl : MonoBehaviour
     public TMP_InputField hourInputField;
     public TMP_InputField minuteInputField;
     public TMP_InputField secondInputField;
+    public bool stopTime;
     [SerializeField] private TimeEditer clockEditer;
     [SerializeField] private Button confirmInputFEdit;
 
@@ -43,23 +44,24 @@ public class ClockHandControl : MonoBehaviour
 
     private void RotateHand(RectTransform hand, float angle)
     {
-        hand.DORotate(new Vector3(0, 0, -angle), 0.1f); 
+        hand.DORotate(new Vector3(0, 0, -angle), 0.1f);
     }
 
     // Обновление стрелок каждую секунду
     private void UpdateClockHands()
     {
-        currentTime = currentTime.AddSeconds(1); 
+        if (!stopTime)
+        {
+            currentTime = currentTime.AddSeconds(1);
 
-        float hoursAngle = (currentTime.Hour % 12) * 30f + currentTime.Minute * 0.5f;
-        float minutesAngle = currentTime.Minute * 6f;
-        float secondsAngle = currentTime.Second * 6f;
-
-        RotateHand(hourHand, hoursAngle);
-        RotateHand(minuteHand, minutesAngle);
-        RotateHand(secondHand, secondsAngle);
-
-        UpdateInputFields(); 
+            float hoursAngle = (currentTime.Hour % 12) * 30f + currentTime.Minute * 0.5f;
+            float minutesAngle = currentTime.Minute * 6f;
+            float secondsAngle = currentTime.Second * 6f;
+            RotateHand(hourHand, hoursAngle);
+            RotateHand(minuteHand, minutesAngle);
+            RotateHand(secondHand, secondsAngle);
+            UpdateInputFields();
+        }
     }
 
     public void SetHour(int hour)

@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Unity stuff\\Unity Projects\\ClockSync\\",
+  "WorkspaceRootPath": "D:\\Unity stuff\\Unity Projects\\Commercial Projects\\Clock-WebGL\\ClockSync\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1FA521A-CD3E-C092-BE46-DA2790F1D197}|Assembly-CSharp.csproj|d:\\unity stuff\\unity projects\\clocksync\\assets\\scripts\\timeediter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A1FA521A-CD3E-C092-BE46-DA2790F1D197}|Assembly-CSharp.csproj|d:\\unity stuff\\unity projects\\commercial projects\\clock-webgl\\clocksync\\assets\\scripts\\timeediter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1FA521A-CD3E-C092-BE46-DA2790F1D197}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\timeediter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1FA521A-CD3E-C092-BE46-DA2790F1D197}|Assembly-CSharp.csproj|d:\\unity stuff\\unity projects\\clocksync\\assets\\scripts\\clockhandcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A1FA521A-CD3E-C092-BE46-DA2790F1D197}|Assembly-CSharp.csproj|D:\\Unity stuff\\Unity Projects\\Commercial Projects\\Clock-WebGL\\ClockSync\\assets\\scripts\\clockhandcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1FA521A-CD3E-C092-BE46-DA2790F1D197}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\clockhandcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1FA521A-CD3E-C092-BE46-DA2790F1D197}|Assembly-CSharp.csproj|d:\\unity stuff\\unity projects\\clocksync\\assets\\scripts\\clockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A1FA521A-CD3E-C092-BE46-DA2790F1D197}|Assembly-CSharp.csproj|D:\\Unity stuff\\Unity Projects\\Commercial Projects\\Clock-WebGL\\ClockSync\\assets\\scripts\\clockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1FA521A-CD3E-C092-BE46-DA2790F1D197}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\clockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TimeEditer.cs",
-              "DocumentMoniker": "D:\\Unity stuff\\Unity Projects\\ClockSync\\Assets\\Scripts\\TimeEditer.cs",
+              "DocumentMoniker": "D:\\Unity stuff\\Unity Projects\\Commercial Projects\\Clock-WebGL\\ClockSync\\Assets\\Scripts\\TimeEditer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TimeEditer.cs",
-              "ToolTip": "D:\\Unity stuff\\Unity Projects\\ClockSync\\Assets\\Scripts\\TimeEditer.cs",
+              "ToolTip": "D:\\Unity stuff\\Unity Projects\\Commercial Projects\\Clock-WebGL\\ClockSync\\Assets\\Scripts\\TimeEditer.cs",
               "RelativeToolTip": "Assets\\Scripts\\TimeEditer.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAmwCMAAAAuAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAUwF8AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T06:50:10.268Z",
               "EditorCaption": ""
@@ -41,27 +41,25 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ClockHandControl.cs",
-              "DocumentMoniker": "D:\\Unity stuff\\Unity Projects\\ClockSync\\Assets\\Scripts\\ClockHandControl.cs",
+              "DocumentMoniker": "D:\\Unity stuff\\Unity Projects\\Commercial Projects\\Clock-WebGL\\ClockSync\\Assets\\Scripts\\ClockHandControl.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ClockHandControl.cs",
-              "ToolTip": "D:\\Unity stuff\\Unity Projects\\ClockSync\\Assets\\Scripts\\ClockHandControl.cs",
+              "ToolTip": "D:\\Unity stuff\\Unity Projects\\Commercial Projects\\Clock-WebGL\\ClockSync\\Assets\\Scripts\\ClockHandControl.cs",
               "RelativeToolTip": "Assets\\Scripts\\ClockHandControl.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAkwCoAAAAAAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAADsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T06:49:54.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T06:49:54.187Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ClockController.cs",
-              "DocumentMoniker": "D:\\Unity stuff\\Unity Projects\\ClockSync\\Assets\\Scripts\\ClockController.cs",
+              "DocumentMoniker": "D:\\Unity stuff\\Unity Projects\\Commercial Projects\\Clock-WebGL\\ClockSync\\Assets\\Scripts\\ClockController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ClockController.cs",
-              "ToolTip": "D:\\Unity stuff\\Unity Projects\\ClockSync\\Assets\\Scripts\\ClockController.cs",
+              "ToolTip": "D:\\Unity stuff\\Unity Projects\\Commercial Projects\\Clock-WebGL\\ClockSync\\Assets\\Scripts\\ClockController.cs",
               "RelativeToolTip": "Assets\\Scripts\\ClockController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAA0AAAAiAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T06:47:24.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T06:47:24.179Z"
             }
           ]
         }

@@ -75,6 +75,7 @@ public class TimeEditer : MonoBehaviour, IDragHandler, IEndDragHandler
     {
         if (isEditing && currentDraggingHand != null)
         {
+            clockHandController.stopTime = true;
             Vector2 direction = (Vector2)Input.mousePosition - (Vector2)currentDraggingHand.position;
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
             currentDraggingHand.rotation = Quaternion.Euler(0, 0, angle);
@@ -85,6 +86,7 @@ public class TimeEditer : MonoBehaviour, IDragHandler, IEndDragHandler
     {
         if (isEditing && currentDraggingHand != null)
         {
+            clockHandController.stopTime = false;
             isDragging = false;
             UpdateClockTime();
             currentDraggingHand = null;
